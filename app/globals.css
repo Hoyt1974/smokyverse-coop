@@ -1,21 +1,16 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
-/* app/globals.css */
-/* Global Styles with Blue on Black Theme */
-body {
-  margin: 0;
+/* Basic dark theme background/text styling */
+/* body {
+  background-color: #0a0a0a;
+  color: #ededed;
   font-family: sans-serif;
-  background-color: #000a0a; /* Deep black-blue background */
-  color: #00ccff; /* Electric blue text */
-}
+} */
 
-a {
+body {
+  background-color: black;
   color: #00ccff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  font-family: sans-serif;
 }
